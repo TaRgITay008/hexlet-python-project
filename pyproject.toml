@@ -1,0 +1,11 @@
+[project]
+name = "brain-games"
+version = "1.0.0"
+description = "Brain Games Project"
+
+[project.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
